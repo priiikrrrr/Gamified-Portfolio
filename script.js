@@ -229,8 +229,8 @@ const overLayContentMap = {
     <a href="https://www.codechef.com/users/sedge_sage_11" target="_blank">Codechef</a><br>`,
 
     "Projects" :`Some of the projects are : <br>
-    menstural tracker & community : <a href="https://cyclewisee.vercel.app/" target="_blank"></a><br> <br>
-    Gamified Portfolio : <a href="https://priyankakharwar.vercel.app/" target="_blank"></a> <br>
+    <a href="https://cyclewisee.vercel.app/" target="_blank">Cyclewise</a><br> <br>
+    <a href="https://priyankakharwar.vercel.app/" target="_blank">Portfolio</a> <br>
     Miniproject Gallery : live link <br>
     Vocabulary Bilder : live link <br>
     `, 
