@@ -230,7 +230,7 @@ const overLayContentMap = {
 
     "Projects" :`Some of the projects are : <br>
     menstural tracker & community : <a href="https://cyclewisee.vercel.app/" target="_blank"></a><br> <br>
-    Gamified Portfolio : live link <br>
+    Gamified Portfolio : <a href="https://priyankakharwar.vercel.app/" target="_blank"></a> <br>
     Miniproject Gallery : live link <br>
     Vocabulary Bilder : live link <br>
     `, 
