@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas1{
+    width: 1000px;
+    height: 700px;
+    border: 4px solid black;
+    background: linear-gradient(to bottom, lightblue, darkblue, black);
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.hidden{
+    display: none;
+}
+#scrollWrapper {
+position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;   /* fixed width */
+  height: 80vh;  /* fixed height */
+  margin: auto;
+}
+.scrollImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#scroll{
+  transition: transform 0.6s ease;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.scrollText {
+ font-family: "VT323", monospace;
+ font-size: 3rem;
+ line-height: 1.5;
+ padding: 40px 60px;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+  top: 15%;          /* push text downward */
+  left: 10%;
+  right: 10%;
+  bottom: 15%;
+  color: #2b2b2b;
+  padding: 10px;
+  overflow-y: auto;  /* allows scrolling if text too long */
+  z-index: 2;        /* keeps it above the parchment */
+}
+
+
+#scrollText a {
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+#scrollText a:hover {
+  color: white;
+  text-shadow: 0 0 5px gold;
+}
