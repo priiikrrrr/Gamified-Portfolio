@@ -1,5 +1,4 @@
-"
-GAMIFIED PORTFOLIO
+# Gamified Portfolio 🎮
 
+Inspired by [Frank's Laboratory](https://www.youtube.com/@FranksLaboratory).
 
-Inspired By : Franks's Laboratory " 
