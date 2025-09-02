@@ -228,15 +228,15 @@ const overLayContentMap = {
     <a href="https://leetcode.com/u/Prieyyankaa/" target="_blank">Leetcode</a><br>
     <a href="https://www.codechef.com/users/sedge_sage_11" target="_blank">Codechef</a><br>`,
 
-    "Projects" :`Some of the projects are : <br>
-    <a href="https://cyclewisee.vercel.app/" target="_blank">Cyclewise</a><br> <br>
-    <a href="https://priyankakharwar.vercel.app/" target="_blank">Portfolio</a> <br>
-    Miniproject Gallery : live link <br>
-    Vocabulary Bilder : live link <br>
+    "Projects" :`Some of the projects are : <br><br>
+    <a href="https://cyclewisee.vercel.app/" target="_blank">Cyclewise</a><br><br>
+    <a href="https://" target="_blank>Miniproject Gallery</a><br><br>
+    <a href="https://" target="_blank">Vocabulary Builder</a><br><br>
+    <a href="https://priyankakharwar.vercel.app/" target="_blank">Portfolio</a><br>
     `, 
     "📞" : `Commit, push, pray <br>
       Or just say hey :p <br>
-      Reach out at:<br>
+      Reach out at:<br><br>
       <a href="https://github.com/priiikrrrr" target="_blank"> GitHub</a><br>
       <a href="https://linkedin.com/in/yourusername" target="_blank"> LinkedIn</a><br>
       <a href="https://instagram.com/yourusername" target="_blank"> Instagram</a>`,
@@ -401,4 +401,47 @@ animate();
 //resizing  for variac screens so, the mouse works fine
 window.addEventListener("resize", function () {
   canvasPos = canvas.getBoundingClientRect();
+});
+
+
+
+
+// Navbar button effect 
+// const anchor = document.getElementById("navButton")
+
+// async function typeSentence(sentence, dets, delay = 100) {
+//   const letters = sentence.split("");//splitting char by char
+//   let i = 0;
+//   while(i < letters.length){
+//     await wait(delay);
+//     dets.append(letters[i]);
+//     i++;
+//   }
+//   return;
+// }
+// function wait(delay)
+// {
+//   return new Promise(resolve => setTimeout(resolve,delay))
+// }
+
+// async function run(){
+//   await typeSentence("Don't wanna play?",anchor, 100);
+//   await wait(1000);
+//   anchor.textContent= "";
+//   await typeSentence("Redirect to the portfolio!", anchor, 100);
+// }
+// run();
+
+
+let typed = new Typed('#typedText', {
+  strings: [
+    "Don't wanna play?",
+    "Go to portfolio"
+  ],
+  typeSpeed: 50,
+  backSpeed: 30,
+  backDelay: 1500,
+  smartBackspace: false,
+  loop: true,
+  showCursor: false
 });
